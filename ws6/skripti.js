@@ -1,6 +1,7 @@
 
 
 function getData() {
+    //tehtava 1
     if (typeof(Storage) !== "undefined") {
     var maaranpaa = document.getElementById("destination").value;
     var paiva = document.getElementById("arrival").value;
@@ -37,7 +38,7 @@ function getData() {
 }
 
 function lataus() {
-
+    //tehtava 2
     var dest = localStorage.getItem("destination");
     var paiv = localStorage.getItem("arrival");
     var internet = localStorage.getItem("Internet");
